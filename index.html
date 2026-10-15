@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redes & Seguridad del Occidente | Cámaras Hikvision y Soluciones</title>
+
+  <!-- OPTIMIZACIÓN SEO PARA GOOGLE Y QUETZALTENANGO -->
+  <meta name="description" content="Instalación profesional de cámaras Hikvision, sistemas de videovigilancia y redes Wi-Fi a domicilio en Quetzaltenango (Xela) y todo el Occidente. Cotiza por WhatsApp.">
+  <meta name="keywords" content="camaras de seguridad xela, instalacion de camaras quetzaltenango, hikvision xela, redes wifi quetzaltenango, dvr xela, seguridad quetzaltenango">
+  <meta name="geo.region" content="GT-QUE">
+  <meta name="geo.placename" content="Quetzaltenango">
+  
+  <style>
+
+    
+    /* RESET BÁSICO Y DESPLAZAMIENTO SUAVE */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #222; background-color: #fff; line-height: 1.6; }
+
+    /* CINTA DE ANUNCIO SUPERIOR */
+    .top-bar {
+      background: #0d0d0d;
+      color: #ccc;
+      font-size: 0.78em;
+      text-align: center;
+      padding: 8px 10px;
+      letter-spacing: 1px;
+      border-bottom: 1px solid #1a1a1a;
+      text-transform: uppercase;
+    }
+    .top-bar strong { color: #fff; }
+
+    /* NAVEGACIÓN SUPERIOR */
+    nav { 
+      position: sticky; 
+      top: 0; 
+      background: #000000; 
+      display: flex; 
+      flex-direction: column;
+      align-items: center; 
+      padding: 18px 5% 12px; 
+      border-bottom: 1px solid #222; 
+      z-index: 1000; 
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5); 
+    }
+    
+    /* LOGO GRANDE CENTRADO */
+    .logo { 
+      font-size: 1.5em; 
+      font-weight: 900; 
+      letter-spacing: 2px; 
+      color: #ffffff; 
+      text-transform: uppercase; 
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .logo span { color: #e74c3c; font-weight: 300; }
+
+    /* ENLACES DEL MENÚ CENTRADOS ABAJO DEL LOGO */
+    .menu-links { display: flex; gap: 20px; }
+    .menu-links a { 
+      text-decoration: none; 
+      color: #aaa; 
+      font-weight: 700; 
+      font-size: 0.8em; 
+      text-transform: uppercase; 
+      letter-spacing: 1.5px; 
+      transition: color 0.2s; 
+    }
+    .menu-links a:hover { color: #ffffff; }
+
+    /* SECCIÓN HERO (BANNER PRINCIPAL) */
+    .hero { 
+      height: 75vh; 
+      background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), 
+                  url('https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat fixed;
+      display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; color: white; padding: 0 20px;
+    }
+    .hero h1 { font-size: 2.5em; font-weight: 900; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 15px; }
+    .hero p { font-size: 1.05em; max-width: 700px; font-weight: 300; margin-bottom: 25px; color: #ddd; }
+    .btn-main { background: #ffffff; color: #000; padding: 14px 32px; text-decoration: none; font-weight: 900; text-transform: uppercase; font-size: 0.85em; border-radius: 2px; letter-spacing: 1.5px; transition: 0.4s; }
+    .btn-main:hover { background: #e74c3c; color: #fff; }
+
+    /* SECCIÓN DE MARCAS (TAMAÑO AMPLIADO Y CONTROLADO) */
+    .marcas { 
+      padding: 90px 5%; 
+      text-align: center; 
+      background: #f8fafc; 
+      border-bottom: 1px solid #e2e8f0; 
+      scroll-margin-top: 100px;
+    }
+    .marcas h3 { 
+      font-size: 1.8em; 
+      text-transform: uppercase; 
+      color: #0f172a; 
+      letter-spacing: 3px; 
+      margin-bottom: 15px; 
+      font-weight: 900; 
+    }
+    .marcas p { 
+      color: #64748b; 
+      font-size: 1.05em; 
+      margin-bottom: 45px; 
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .logos-container { display: flex; justify-content: center; align-items: center; gap: 30px; flex-wrap: wrap; }
+    
+    .logo-card { 
+      background: white; 
+      padding: 20px 25px; 
+      border-radius: 12px; 
+      box-shadow: 0 6px 18px rgba(0,0,0,0.06); 
+      display: flex; 
+      align-items: center; 
+      justify-content: center; 
+      width: 220px; 
+      height: 110px; 
+      border: 1px solid #cbd5e1;
+      overflow: hidden; 
+      transition: transform 0.4s, box-shadow 0.4s;
+    }
+    .logo-card:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(0,0,0,0.08); }
+    
+    .logo-card img { 
+      max-width: 100% !important; 
+      max-height: 100% !important; 
+      width: auto !important;
+      height: auto !important;
+      object-fit: contain !important; 
+      display: block;
+    }
+
+    /* BANNER DE SERVICIOS (PARALLAX AMPLIADO COMO EL INICIO) */
+    .services-hero {
+      min-height: 70vh;
+      padding: 80px 20px;
+      background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), 
+                  url('https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat fixed;
+      display: flex; 
+      flex-direction: column; 
+      justify-content: center; 
+      align-items: center; 
+      text-align: center; 
+      color: white; 
+      scroll-margin-top: 100px;
+    }
+    .services-hero h2 { 
+      font-size: 2.5em; 
+      font-weight: 900; 
+      text-transform: uppercase; 
+      letter-spacing: 3px; 
+      margin-bottom: 20px; 
+    }
+    .services-hero p { 
+      max-width: 850px; 
+      font-size: 1.1em; 
+      line-height: 1.8; 
+      color: #cbd5e1; 
+      font-weight: 300; 
+    }
+
+    /* SECCIÓN DE PRODUCTOS Y EQUIPOS */
+    .productos { padding: 60px 5%; max-width: 1200px; margin: auto; }
+    .grid-servicios { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; }
+    
+    .card-item { border: 1px solid #e2e8f0; border-radius: 6px; overflow: hidden; background: #fff; transition: 0.4s; box-shadow: 0 4px 8px rgba(0,0,0,0.03); display: flex; flex-direction: column; }
+    .card-item:hover { transform: translateY(-4px); box-shadow: 0 12px 20px rgba(0,0,0,0.08); }
+    
+    .card-img { height: 200px; padding: 15px; background: #f8fafc; display: flex; align-items: center; justify-content: center; border-bottom: 1px solid #f1f5f9; overflow: hidden;}
+    .card-img img { max-height: 100%; max-width: 100%; width: auto; height: auto; object-fit: contain; }
+    
+    .card-content { padding: 20px; flex-grow: 1; }
+    .card-content h3 { font-size: 1.05em; text-transform: uppercase; margin-bottom: 8px; color: #0f172a; font-weight: 800; }
+    .card-content p { font-size: 0.88em; color: #64748b; }
+    .tag { display: inline-block; background: #e2e8f0; color: #334155; font-size: 0.72em; font-weight: 700; padding: 3px 8px; border-radius: 2px; margin-bottom: 8px; text-transform: uppercase; }
+
+    /* FOOTER */
+    footer { background: #000000; color: white; padding: 50px 5% 25px; border-top: 1px solid #222; }
+    .footer-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 30px; max-width: 1200px; margin: auto; }
+    .footer-col h4 { font-size: 0.9em; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 15px; color: #ffffff; font-weight: 800; }
+    .footer-col p { font-size: 0.85em; color: #888888; margin-bottom: 8px; }
+    .footer-bottom { text-align: center; border-top: 1px solid #1a1a1a; padding-top: 20px; margin-top: 35px; font-size: 0.75em; color: #555555; letter-spacing: 1px; }
+
+    /* BOTÓN FLOTANTE WHATSAPP */
+    .whatsapp-float {
+      position: fixed; width: 55px; height: 55px; bottom: 20px; right: 20px; background-color: #25d366; color: #FFF; border-radius: 50px; text-align: center; font-size: 28px; box-shadow: 2px 4px 12px rgba(0,0,0,0.4); z-index: 1000; display: flex; justify-content: center; align-items: center; text-decoration: none;
+    }
+
+    /* AJUSTES ESPECÍFICOS PARA CELULARES */
+    @media (max-width: 768px) {
+      .top-bar { font-size: 0.7em; padding: 6px; }
+      .logo { font-size: 1.2em; letter-spacing: 1px; }
+      .menu-links { gap: 15px; }
+      .menu-links a { font-size: 0.75em; letter-spacing: 1px; }
+      .hero { height: 65vh; padding: 0 15px; }
+      .hero h1 { font-size: 1.8em; letter-spacing: 1px; }
+      .hero p { font-size: 0.95em; }
+      .btn-main { padding: 12px 24px; font-size: 0.8em; }
+      .services-hero h2 { font-size: 1.6em; }
+      .services-hero p { font-size: 0.9em; }
+      .logo-card { width: 140px; height: 75px; padding: 10px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- CINTA DE ANUNCIO SUPERIOR -->
+  <div class="top-bar">
+    Servicio a domicilio de videovigilancia y redes en <strong>Quetzaltenango y Occidente</strong>
+  </div>
+
+  <!-- NAVEGACIÓN FIJA Y CENTRADA -->
+  <nav>
+    <div class="logo">REDES & SEGURIDAD <span>DEL OCCIDENTE</span></div>
+    <div class="menu-links">
+      <a href="#marcas">Marcas</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+  </nav>
+
+  <!-- BANNER PRINCIPAL (HERO) -->
+  <section class="hero">
+    <h1>INSTALACIÓN DE CÁMARAS Y REDES</h1>
+    <p>Especialistas en sistemas Hikvision, instalación de routers y repetidores para obtener una máxima cobertura de Wi-Fi y configuración de cámaras inalámbricas para hogares y negocios, para obtener una solución digna de confianza.</p>
+    <a href="https://wa.me/50256311780?text=Hola,%20me%20interesa%20una%20cotizacion" class="btn-main" target="_blank">SOLICITAR COTIZACIÓN</a>
+  </section>
+
+  <!-- SECCIÓN DE MARCAS -->
+  <section class="marcas" id="marcas">
+    <h3>MARCAS Y EQUIPAMIENTO PROFESIONAL</h3>
+    <p>Trabajamos con las marcas líderes del mercado para garantizar máxima calidad y durabilidad.</p>
+    <div class="logos-container">
+      <div class="logo-card">
+        <img src="img/Hikvision-logo.jpg" alt="Hikvision Logo">
+      </div>
+      <div class="logo-card">
+        <img src="img/tenda-logo.png" alt="Tenda Logo">
+      </div>
+      <div class="logo-card">
+        <img src="img/steren-logo.png" alt="Steren Logo">
+      </div>
+    </div>
+  </section>
+
+  <!-- BANNER DE SERVICIOS (PARALLAX AMPLIADO) -->
+  <section class="services-hero" id="servicios">
+    <h2>NUESTROS SERVICIOS Y EQUIPAMIENTO</h2>
+    <p>Ofrecemos soluciones integrales de videovigilancia y conectividad adaptadas a las necesidades de la región de Occidente. Realizamos levantamiento técnico previo en tu domicilio o negocio para determinar la mejor ubicación de cámaras, el tipo de cableado adecuado y la ruta óptima de instalación, garantizando una estética impecable y máxima cobertura Wi-Fi sin zonas muertas.</p>
+  </section>
+
+  <!-- CATÁLOGO DE PRODUCTOS / SERVICIOS -->
+  <section class="productos">
+    <div class="grid-servicios">
+      
+      <!-- 1. CÁMARA HIKVISION -->
+      <div class="card-item">
+        <div class="card-img">
+          <img src="img/camara-hikvision.png" alt="Cámara Hikvision Domo">
+        </div>
+        <div class="card-content">
+          <span class="tag">Hikvision • Cableado UTP</span>
+          <h3>Cámaras Hikvision</h3>
+          <p>Instalación profesional para interiores y exteriores. Cableado resistente y monitoreo continuo en vivo desde tu celular.</p>
+        </div>
+      </div>
+
+      <!-- 2. DVR HIKVISION -->
+      <div class="card-item">
+        <div class="card-img">
+          <img src="img/dvr-hikvision.jpg" alt="DVR Hikvision">
+        </div>
+        <div class="card-content">
+          <span class="tag">Hikvision • Grabación DVR</span>
+          <h3>Grabadores DVR Hikvision</h3>
+          <p>Configuración de grabadores con disco duro de almacenamiento continuo y transmisión remota por aplicación móvil.</p>
+        </div>
+      </div>
+
+      <!-- 3. ROUTER TENDA -->
+      <div class="card-item">
+        <div class="card-img">
+          <img src="img/router-tenda.png" alt="Router Tenda Wi-Fi">
+        </div>
+        <div class="card-content">
+          <span class="tag">Tenda • Cobertura Wi-Fi</span>
+          <h3>Routers y Repetidores Tenda</h3>
+          <p>Ampliación de señal de internet para eliminar zonas muertas. Routers de alto alcance para hogares y comercios.</p>
+        </div>
+      </div>
+
+      <!-- 4. CÁMARA STEREN WI-FI -->
+      <div class="card-item">
+        <div class="card-img">
+          <img src="img/camara-steren.jpg" alt="Cámara Steren Wi-Fi">
+        </div>
+        <div class="card-content">
+          <span class="tag">Steren • Conexión Wi-Fi</span>
+          <h3>Cámaras Wi-Fi Steren</h3>
+          <p>Instalación y configuración de cámaras inalámbricas conectadas vía Wi-Fi para un monitoreo rápido e inteligente.</p>
+        </div>
+      </div>
+
+      <!-- 5. TIMBRE HIKVISION -->
+      <div class="card-item">
+        <div class="card-img">
+          <img src="img/timbre-hikvision.webp" alt="Videoportero Hikvision">
+        </div>
+        <div class="card-content">
+          <span class="tag">Hikvision • Control de Acceso</span>
+          <h3>Timbres e Intercomunicadores</h3>
+          <p>Timbres inteligentes con pantalla y cámara. Atiende la entrada de tu propiedad con video desde tu smartphone.</p>
+        </div>
+      </div>
+
+      <!-- 6. SOPORTE DE TV -->
+      <div class="card-item">
+        <div class="card-img">
+          <img src="img/soporte-tv.webp" alt="Soportes de TV">
+        </div>
+        <div class="card-content">
+          <span class="tag">Instalación • Soportes TV</span>
+          <h3>Soportes para Televisores</h3>
+          <p>Instalación estética, nivelada y firme para pantallas de cualquier tamaño en paredes de concreto, tablayeso o losa.</p>
+        </div>
+      </div>
+
+      <!-- 7. DESARROLLO DE PÁGINAS WEB -->
+      <div class="card-item">
+        <div class="card-img">
+          <img src="img/desarrollo-web.jpg" alt="Diseño de Páginas Web">
+        </div>
+        <div class="card-content">
+          <span class="tag">Diseño Web • Landing Pages</span>
+          <h3>Diseño y Creación de Páginas Web</h3>
+          <p>Creación de sitios web profesionales, responsivos y optimizados para celulares. Destaca tu negocio en internet y atrae más clientes por WhatsApp.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="contacto">
+    <div class="footer-container">
+      <div class="footer-col">
+        <h4>COBERTURA</h4>
+        <p>Quetzaltenango (Cabecera)</p>
+        <p>Salcajá • La Esperanza</p>
+        <p>San Mateo • Almolonga</p>
+        <p>Cantel • Olintepeque</p>
+      </div>
+      <div class="footer-col">
+        <h4>CONTACTO DIRECTO</h4>
+        <p>📱 telefono: +502 5631-1780</p>
+        <p>✉️ Correo: redesyseguridad.occidente@gmail.com</p>
+        <p>🚗 <strong>Servicio 100% a Domicilio</strong></p>
+        <p>📍 Cobertura: Quetzaltenango y Occidente</p>
+      </div>
+      <div class="footer-col">
+        <h4>CABLEADO TÉCNICO</h4>
+        <p>• Cable UTP Estándar</p>
+        <p>• Cable Apantallado de Aluminio</p>
+        <p>• Cable Autosoportado con Guía de Acero</p>
+        <p>• Cables de Fibra Óptica</p>
+        <p>• y muchos más</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 REDES & SEGURIDAD DEL OCCIDENTE. TODOS LOS DERECHOS RESERVADOS.
+    </div>
+  </footer>
+
+  <!-- BOTÓN FLOTANTE DE WHATSAPP -->
+  <a href="https://wa.me/50256311780?text=Hola,%20quisiera%20cotizar%20un%20servicio%20de%20instalacion" class="whatsapp-float" target="_blank">
+    💬
+  </a>
+
+</body>
+</html>
